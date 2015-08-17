@@ -41,3 +41,7 @@ about_me = {
 	"hungry?" => true
 }
 
+
+"My name is #{name}"
+
+
