@@ -34,6 +34,10 @@ a:visited {
 	text-decoration: none;
 }
 
+a {
+	margin-right: 0;
+}
+
 h3 {
 	position: relative;
 	font-size: 3em;
@@ -53,7 +57,7 @@ ul {
 }
 
 footer {
-	position:fixed;
+	position: fixed;
     bottom:0;
 }
 
@@ -61,4 +65,45 @@ footer {
 	display: inline-block;
 	padding: 10px;
 	opacity: 0.7;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
+}
+
+.column1 {
+	position: absolute;
+    font-size: 13px;
+    left: 20%;
+    top: 23%;
+    width: 50%;
+    right: 7%;
+    border: 2px solid #F0D059;
+    box-shadow: #B95C00 2px 2px;
+    background-color: white;
+    opacity: 0.5;
+    margin-bottom: 10em;
+}
+
+
+.column2 {
+	font-size: 13px;
+	position: absolute;
+	top: 23%;
+	right: 2%;
+    border: 2px solid #F0D059;
+    padding-right: 8em;
+    padding-left: 2em;
+    padding-bottom: 10em;
+    box-shadow: #B95C00 2px 2px;
+    background-color: white;
+    opacity: 0.5;
+}
+
+.column2 a:visited {
+	color: #B95C00;
+}
+
+.column a:hover {
+	color: #F0D059;
 }
