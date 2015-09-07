@@ -107,6 +107,13 @@ footer {
 .column a:hover {
 	color: #F0D059;
 }
+
+footer {
+	margin-left: 25rem;
+	position:fixed;
+ 	bottom:0;
+ 	left:0;
+}
 .social li {
 	display: inline-block;
 	width: 3rem;
@@ -116,3 +123,4 @@ footer {
 	text-align: center;
 	margin: 1.25rem 5px;
 }
+
