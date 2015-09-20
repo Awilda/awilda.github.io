@@ -2,7 +2,7 @@
 <head>
   <title>Contact</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="css/text" href="css/blog_stylesheet.css">
+  <link rel="stylesheet" type="css/text" href="css/contact.css">
   <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
@@ -14,7 +14,7 @@
 
 <nav class="navigator">
   <ul class="links">
-    <li class="active"><a href="../index.html">HOME</a></li>
+    <li class="active"><a href="index.html">HOME</a></li>
     <li><a href="../about.html">BIO</a></li>
     <li><a href="../blog/t5-ruby-classes.html">BLOG</a></li>
     <li><a href="#">PORTFOLIO</a></li>
@@ -23,7 +23,29 @@
   </ul>
 </nav>
 
-<section>
+<div class="column1">
+  <form id="contact" action="" method="post">
+    <h1>Contact Me!</h1>
+    <h2>Send me a message</h2>
+    <fieldset>
+      <input placeholder="Name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Email" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Please enter your message here..." tabindex="3" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submission" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>
+</div>
+
+
+
+
+<!-- <section>
 <div class="column1">
 
   <h1>Contact:</h1>
@@ -34,7 +56,7 @@
 <div class="column2">
 More info coming soon!
 </section>
-
+ -->
 <footer class="social">
   <div class="content">
     <ul class="icons">
