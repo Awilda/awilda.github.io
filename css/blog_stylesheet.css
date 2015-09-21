@@ -92,7 +92,7 @@ footer {
 	top: 23%;
 	right: 2%;
     border: 2px solid #F0D059;
-    padding-right: 8em;
+    padding-right: 5em;
     padding-left: 2em;
     padding-bottom: 10em;
     box-shadow: #B95C00 2px 2px;
@@ -107,7 +107,6 @@ footer {
 .column a:hover {
 	color: #F0D059;
 }
-
 footer {
 	margin-left: 25rem;
 	position:fixed;
