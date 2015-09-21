@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+  <title>Enumerables</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="css/text" href="../css/blog_stylesheet.css">
+  <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div id="name">
+  <h3>Awilda Cantres</h3>
+</div>
+
+
+<nav class="navigator">
+  <ul class="links">
+    <li class="active"><a href="file:///home/awilda/DBC/awilda.github.io/index.html">HOME</a></li>
+    <li><a href="#">BIO</a></li>
+    <li><a href="file:///home/awilda/DBC/awilda.github.io/blog/t3-thinking-style.html">BLOG</a></li>
+    <li><a href="#">PORTFOLIO</a></li>
+    <li><a href="#">DIY</a></li>
+    <li><a href="#">CONTACT</a></li>
+  </ul>
+</nav>
+
+<section>
+<div class="column1">
+  <h1>Enumerable#map</h1>
+  <h4>September 20, 2015</h4>
+<br>
+    <p><b>What is an Enumerable?</b><p>
+    <p>An enumerable is the code block where each element from a list, such as from an Array or Hash, is passed though. With an enumerable, one could write code that makes each individual element do something.</p>
+
+    <p><b>What is an Enumerator</b></p>
+    <p>An enumerator allows us to chain methods to objects. When no block (enumerator) is passed, the enumerator will return</p>
+
+    <p><b>Using Enumerable#map</b></p>
+    <p>When using enumerable#map, you don't have to worry about it being destructive because a new array is returned with the results from the code block. If we decide to call on the original array, the original array appears the same. Now, the enumerable#map allows up to make changes to each element in an array.</p>
+
+    <p><b>Putting it together</b></p>
+    <p>Here's a visual of an enumerable: {|x| x + 1}</p>
+    <p>Here's a visual of an enumerator: [1,2,3,4].map</p>
+    <p>Here's what it looks like put together: [1,2,3,4].map {|x| x +1}</p>
+    <p>What we are doing here is using the enumerable#map to go through an array. The "x" is each number that is being pass from the array. In our code block, each number will be added to one. Therefore, our new array will return:</p>
+    <p>=> [2,3,4,5]</p>
+      
+</div>
+
+
+<div class="column2">
+  <h2>Archive</h2>
+    <p><a href="#">Enumerable#map - September 20, 2015</a></p>
+    <p><a href="blog/t3-arrays-hashes.html">Online Security - September 13, 2015</a></p>
+    <p><a href="blog/t3-arrays-hashes.html">Arrays & Hashes - August 16, 2015</a></p>
+    <p><a href="blog/css-concepts">DBC Experience - August 10, 2015</a></p>
+    <p><a href="blog/t1-git-blog.html">Version Control - July 31, 2015</a></p>
+</div>
+</section>
+
+<footer class="social">
+  <div class="content">
+    <ul class="icons">
+      <li>
+      <a class="linkedin" href="https://www.linkedin.com/pub/awilda-cantres/58/384/556" target="blank">
+        <i class="fa fa-linkedin"></a></i>
+      </li>
+      <li>
+      <a class="pinterest" href="https://www.pinterest.com/awildaines/" target="blank">
+        <i class="fa fa-pinterest-p"></a></i>
+      </li>
+      <li>
+      <a class="instagram" href="https://instagram.com/awildasadventure/" target="blank">
+        <i class="fa fa-instagram"></a></i>
+      <li>
+      <a class="github" href="https://github.com/Awilda" target="blank">
+        <i class="fa fa-github"></a></i>
+      </li>
+    </ul>
+  </div>
+</footer>
+
+</body>
+</html>
+
