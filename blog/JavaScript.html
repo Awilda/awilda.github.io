@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+  <title>JS and Ruby</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="css/text" href="../css/blog_stylesheet.css">
+  <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+</head>
+
+<div id="name">
+  <h3>Awilda Cantres</h3>
+</div>
+
+
+<nav class="navigator">
+  <ul class="links">
+    <li class="active"><a href="../index.html">HOME</a></li>
+    <li><a href="../about.html">BIO</a></li>
+    <li><a href="../blog/ruby-classes.html">BLOG</a></li>
+    <li><a href="../projects/index.html">PORTFOLIO</a></li>
+    <li><a href="#">DIY</a></li>
+    <li><a href="../contact.html">CONTACT</a></li>
+  </ul>
+</nav>
+
+<section>
+<div class="column1">
+  <h1>Ruby Classes vs JavaScript Constructors</h1>
+  <h4>October 5, 2015</h4>
+
+<p>In my previous post about creating classes with Ruby, I gave an example of creating an attendance book. Today, I will continue with that example. I will show you a basic layout of adding information to a Ruby class and then introduce you to doing the same thing using JavaScript constructors.</p>
+<p><pre><code>class Attendance</code></pre></p>
+<p><pre><code>def initialize(first_name, last_name, age)<br>@first_name = first_name,<br>@last_name = last_name,<br>@age = age<br>end</code></pre></p>
+
+<p>Here, we have a class called, "Attendance." There's an initialize method that has three arguments for the students' first names, last names and ages. Inside that method, these arguments have been assigned to instance variables so we could use them inside other methods we create. In JavaScript, we can do something similar that will also allow us to add students' information. We can do this using constructor functions:
+
+<p><pre><code>function student(firstName, lastName, age){<br>this.first = firstName;<br>this.lastName = last;<br>this.age = age<br>}</code></pre></p>
+
+<p>This time, we created a function called, "student." It also takes in the same three arguments, this time in lowerCamelCase. Now, the syntax is different where the JS version of Ruby's 'end' is ending with a brace "}" (because the function opens one up). Inside those braces, we use 'this' to signify the function and followed by the argument, we can assign the argument to it (almost like an instance variable). Now, let's look at how we can add these arguments to a class vs a constructor.
+
+<p><pre><code>roll = Attendance.new("Cameron", "Quinn", 23)</code></pre>
+<p><pre><code>var student1 = new student("Cameron", "Quinn", 23)</code></pre>
+
+<p>In both cases, we're adding a student's information. In a Ruby class, we would create other methods to make these students appear present or absent. In Javascript, we could create yet another function that determines being absent from being present to then use these functions in the variables we created for each separate student.</p>
+
+</div>
+
+
+<div class="column2">
+  <h2>Archive</h2>
+    <p><a href="#">Enumerable#map - September 20, 2015</a></p>
+    <p><a href="http://awilda.github.io/blog/t3-arrays-hashes.html">Online Security - September 13, 2015</a></p>
+    <p><a href="http://awilda.github.io/blog/t3-arrays-hashes.html">Arrays & Hashes - August 16, 2015</a></p>
+    <p><a href="http://awilda.github.io/blog/css-concepts">DBC Experience - August 10, 2015</a></p>
+    <p><a href="http://awilda.github.io/blog/t1-git-blog.html">Version Control - July 31, 2015</a></p>
+</div>
+</section>
+
+<footer class="social">
+  <div class="content">
+    <ul class="icons">
+      <li>
+      <a class="linkedin" href="https://www.linkedin.com/pub/awilda-cantres/58/384/556" target="blank">
+        <i class="fa fa-linkedin"></a></i>
+      </li>
+      <li>
+      <a class="pinterest" href="https://www.pinterest.com/awildaines/" target="blank">
+        <i class="fa fa-pinterest-p"></a></i>
+      </li>
+      <li>
+      <a class="instagram" href="https://instagram.com/awildasadventure/" target="blank">
+        <i class="fa fa-instagram"></a></i>
+      <li>
+      <a class="github" href="https://github.com/Awilda" target="blank">
+        <i class="fa fa-github"></a></i>
+      </li>
+    </ul>
+  </div>
+</footer>
+
+</body>
+</html>
