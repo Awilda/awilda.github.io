@@ -1,0 +1,70 @@
+body {
+	font-family: 'Special Elite', cursive;
+	background-image: url("http://i15.photobucket.com/albums/a385/skatergirl117/desk_lighter_zpszec8oj7v.png");
+	background-size: cover;
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    position: relative;
+}
+
+.links li a {
+/*	border: 1px solid #F0D059;*/
+	margin-top: 1em;
+	top: 1em;
+	left: 1em;
+	width: 6em;
+	border-right: 2em;
+	padding: 10px;
+	position: relative;
+	display: inline-block;
+	float: left;
+	font-size: 1.25em;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/*li:hover {
+	cursor: pointer;
+	color: #B95C00;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #F0D059;
+	text-decoration: none;
+}*/
+
+h3 {
+	position: absolute;
+	font-size: 3em;
+	left: 10.3em;
+	top: 5em;
+	padding: 0;
+	margin-right: 0;
+}
+.project_snapshots {
+	position: absolute;
+	top: 12em;
+	margin-left: 15em;
+}
+.project_snapshots img {
+	margin-right: 2em;
+	margin-bottom: 2em;
+	border-radius: 50%;
+	border-style: double;
+	border-color: black;
+}
+ul {
+	list-style-type: none;
+}
+.icons li {
+	display: inline-block;
+	position: relative;
+	right: -14em;
+	top: 2em;
+}
+ 
